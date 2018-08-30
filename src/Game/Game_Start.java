@@ -14,8 +14,9 @@ public class Game_Start {
 	
 	public static void main(String[] args) {
 		Treasure hey = new one_hand(null, 1, 2, null, null, null, null);
+		Treasure card = new Treasure("Elf Race Card", 0, 0, null, null, "");
 		
-		System.out.println(hey);
+		System.out.println(card);
 
 				};
 //		Scanner console = new Scanner(System.in);

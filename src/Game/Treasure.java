@@ -20,6 +20,32 @@ public class Treasure{
 		this.specialCondition = specialCondition;
 	}
 	
+	public Treasure (String name, int bonus, int price, String raceRestrict,
+			String typeOfTreasure, String specialCondition) {
+		if (name.equalsIgnoreCase("Elf Race Card")) {
+			this.specialCondition = "Turns you into an elf";
+		}
+		else if (name.equalsIgnoreCase("Dwarf Race Card")) {
+			this.specialCondition = "Turns you into a dwarf";
+		}
+		
+		else if (name.equalsIgnoreCase("Halfling Race Card")) {
+			this.specialCondition = "Turns you into a halfling";
+		}
+		
+		else if (name.equalsIgnoreCase("Halfling Race Card")) {
+			this.specialCondition = "Turns you into a halfling";
+		}
+		
+		else { this.specialCondition = specialCondition;}
+		this.name = name;
+	    this.bonus = bonus;
+		this.price = price;
+		this.raceRestrict = raceRestrict;
+		this.classRestriction = null;
+		this.typeOfTreasure = typeOfTreasure; 		
+	}
+	
 	public String toString() {
 		
 		return "\n[Treasure] " + name + "\nB:" + bonus + " $:" + price 
