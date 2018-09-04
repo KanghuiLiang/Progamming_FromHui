@@ -3,20 +3,23 @@ import java.util.*;
 
 public class Game_Start {
 
-	private static int Randomizer(int x, int y) {
-		int min = x;
-		int max = y;
-		
-		double random = (min + Math.random() * (max + 1 - min));
-		random = Math.floor(random);
-		return (int) random;
-	}
 	
 	public static void main(String[] args) {
 		Treasure hey = new one_hand(null, 1, 2, null, null, null, null);
-		Treasure card = new Treasure("Elf Race Card", 0, 0, null, null, "");
+		Treasure card = new Treasure("Elf Race Card", 0, 0, null, null, "", null);
 		
-		System.out.println(card);
+		Set <Treasure> Treasures = new HashSet<Treasure>();
+		String[] Treasure_Name = {"Boots of Running Really Fast","Spiky Knees","Staff of Napalm","Stepladder"};
+		String[] TypeofTreasure = {"shoes",null,"1 hand",null};
+		
+		for (int i=0;i<4; i++) {
+			 Treasures.add(new Treasure(Treasure_Name[i],(int)(Math.random()*50),(int)(Math.random()*50),null,null,TypeofTreasure[i], null));
+		}
+		
+		for (Treasure treasure: Treasures) {
+			System.out.println(treasure);
+		}
+//		System.out.println(card);
 
 				};
 //		Scanner console = new Scanner(System.in);
