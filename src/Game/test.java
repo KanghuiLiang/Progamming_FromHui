@@ -22,9 +22,13 @@ public class test {
 //	        Monster maps = map.get(name);
 //	        System.out.println(name+ maps);
 //	    }
-//	   
-	    Item[] listOfitem = {new Item("item1",9),new Item("item2",100)};
-		Hero Player = new Hero(1, 100, listOfitem);  //level1 player
+
+		ArrayList<Item> obj = new ArrayList<>();
+		for (int i = 0; i < 5; i++) {
+			obj.add(new Item("item"+i, 9));
+		}
+//	    Item[] listOfitem = {new Item("item1",9),new Item("item2",100)};
+		Hero Player = new Hero(1, 100, obj);  //level1 player
 	    
 	    Scanner input = new Scanner(System.in);
 		System.out.println("Now You are in the easy level!");
@@ -37,7 +41,7 @@ public class test {
 	    	System.out.println("Now "+Player);
             System.out.println("Which one item you want to use?");
             int num = input.nextInt();
-            System.out.println("You are using "+listOfitem[num]);
+            System.out.println("You are using "+obj.get(num));
 	    }
 	    
 	    else{

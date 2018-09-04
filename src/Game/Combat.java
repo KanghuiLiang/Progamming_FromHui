@@ -24,8 +24,12 @@ public class Combat {
 //		for (int i = 0; i<na.length; i++) {
 //			Hmap.put(na[i], new Hero(H[i]));
 //		}
+		ArrayList<Item> obj = new ArrayList<>();
+		for (int i = 0; i < 5; i++) {
+			obj.add(new Item("item1", 9));
+		}
 		Item[] listOfitem = {new Item("item1",9),new Item("item2",100)};
-		Hero Player = new Hero(1, 100, listOfitem);
+		Hero Player = new Hero(1, 100, obj);
 		
 		Scanner input = new Scanner(System.in);
 		System.out.println("Now You are in the easy level!");
