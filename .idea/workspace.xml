@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fb91824-667f-4e3b-a34c-76419170395c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Game/test_location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/Location.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -182,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536156617698" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536157376618" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -252,7 +250,7 @@
       <option name="presentableId" value="Default" />
       <updated>1536066175463</updated>
       <workItem from="1536066178050" duration="114000" />
-      <workItem from="1536066543593" duration="5660000" />
+      <workItem from="1536066543593" duration="6052000" />
     </task>
     <task id="LOCAL-00001" summary="Arraylist for test">
       <created>1536067503583</created>
@@ -261,11 +259,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536067503584</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Arraylist for test">
+      <created>1536157446840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536157446840</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5774000" />
+    <option name="totallyTimeSpent" value="6166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
