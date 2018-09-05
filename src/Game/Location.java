@@ -9,7 +9,13 @@ package Game;
 	        Stage = stage;
 	    }
 
-	    public void printLocation() {
+		public Location(String[][] stage) {
+			this.x = 1;
+			this.y = 1;
+			Stage = stage;
+		}
+
+		public void printLocation() {
 //	        print array in array
 	        for (int i = 0; i < Stage.length; i++) {
 	            for (int j = 0; j < Stage[i].length; j++) {
@@ -22,6 +28,19 @@ package Game;
 	            System.out.println();
 	        }
 	    }
+
+	    public void moveLeft() {
+			setX(getX() - 1);
+		}
+		public void moveRight() {
+			setX(getX() + 1);
+		}
+		public void moveUp() {
+			setY(getY() - 1);
+		}
+		public void moveDown() {
+			setY(getY() + 1);
+		}
 
 	    public int getX() {
 	        return x;
