@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fb91824-667f-4e3b-a34c-76419170395c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Egor/Game_Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Egor/Game_Start.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,22 +71,24 @@
     <session id="-143749802">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="14" />
+          <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="14" />
+          <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -104,22 +105,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game/test.java">
+        <entry file="file://$PROJECT_DIR$/src/Egor/Game_Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-              <folding>
-                <element signature="e#189#206#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Egor/Hero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-306">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Game/Game_Start.java">
+        <entry file="file://$PROJECT_DIR$/src/Game/Class.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            <state relative-caret-position="442">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="31" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Egor/Randomizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -148,12 +164,12 @@
         <option value="$PROJECT_DIR$/src/Game/fight.java" />
         <option value="$PROJECT_DIR$/src/Egor/Card_Constructor.java" />
         <option value="$PROJECT_DIR$/src/Egor/Treasure.java" />
-        <option value="$PROJECT_DIR$/src/Egor/Game_Start.java" />
-        <option value="$PROJECT_DIR$/src/Egor/Race.java" />
         <option value="$PROJECT_DIR$/src/Egor/Class.java" />
         <option value="$PROJECT_DIR$/src/Game/combat_fight.java" />
-        <option value="$PROJECT_DIR$/src/Egor/Monster.java" />
         <option value="$PROJECT_DIR$/src/Game/test.java" />
+        <option value="$PROJECT_DIR$/src/Egor/Monster.java" />
+        <option value="$PROJECT_DIR$/src/Egor/Race.java" />
+        <option value="$PROJECT_DIR$/src/Egor/Game_Start.java" />
       </list>
     </option>
   </component>
@@ -166,11 +182,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="60" />
-    <option name="y" value="-18" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -198,6 +214,12 @@
               <item name="MuGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="Progamming_FromHui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Egor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MuGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Progamming_FromHui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Game" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -213,7 +235,7 @@
     <property name="SearchEverywhereHistoryKey" value="diagram&#9;ACTION&#9;NewJavaDiagram&#10;class diagram&#9;ACTION&#9;NewJavaDiagram" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536250121768" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536253257394" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Egor" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -228,6 +250,7 @@
       <recent name="Egor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\poohu\OneDrive - Stamford International University\ITE222 - Programming II\munchkin-boardgame\Progamming_FromHui\src\Egor" />
       <recent name="C:\Users\pakor\OneDrive - Stamford International University\ITE222 - Programming II\munchkin-boardgame\Progamming_FromHui\src\Egor" />
     </key>
   </component>
@@ -354,14 +377,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536157446840</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Egor file again!!!">
+      <created>1536250155005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536250155005</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9700000" />
+    <option name="totallyTimeSpent" value="10957000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -374,7 +404,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,7 +413,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -434,7 +464,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arraylist for test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arraylist for test" />
+    <MESSAGE value="add Egor file again!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Egor file again!!!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Game/Card_Constructor.java">
@@ -521,11 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Egor/Game_Start.java" />
-    <entry file="file://$PROJECT_DIR$/src/Egor/Randomizer.java" />
-    <entry file="file://$PROJECT_DIR$/src/Egor/Race.java" />
     <entry file="file://$PROJECT_DIR$/src/Egor/Class.java" />
-    <entry file="file://$PROJECT_DIR$/src/Egor/Hero.java" />
     <entry file="file://$PROJECT_DIR$/src/Game/combat_fight.java" />
     <entry file="file://$PROJECT_DIR$/src/Egor/Card_Constructor.java" />
     <entry file="uml://JAVA/Egor">
@@ -595,7 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Egor/Monster.java" />
     <entry file="uml://JAVA/Game">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -688,18 +714,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Game/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        <state relative-caret-position="707">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
           <folding>
             <element signature="e#189#206#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Race.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Game/Game_Start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        <state relative-caret-position="323">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Randomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Randomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Game_Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -3,14 +3,14 @@ package Egor;
 import java.util.Scanner;
 public class Game_Start {
 	
-	private static int Randomizer(int x, int y) {
-		int min = x;
-		int max = y;
-		
-		double random = (min + Math.random() * (max + 1 - min));
-		random = Math.floor(random);
-		return (int) random;
-	}
+//	private static int Randomizer(int x, int y) {
+//		int min = x;
+//		int max = y;
+//
+//		double random = (min + Math.random() * (max + 1 - min));
+//		random = Math.floor(random);
+//		return (int) random;
+//	}
 	
 	public static void main(String[] args) {
 		Scanner console = new Scanner(System.in);
@@ -19,7 +19,7 @@ public class Game_Start {
 		Treasure[] playerHand = new Treasure[5];
 		
 		for(int i = 0; i < 8; i++) {
-			startingHand[i] = Card_Constructor.TreasureCards[Randomizer(0, 37)];
+			startingHand[i] = Card_Constructor.TreasureCards[new Randomizer().Randomizer(0, 37)];
 		System.out.print("\n-=" + i + "=- " + startingHand[i]);
 		}
 		
