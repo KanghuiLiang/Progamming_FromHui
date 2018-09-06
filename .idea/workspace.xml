@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fb91824-667f-4e3b-a34c-76419170395c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Egor/Card_Constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Egor/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Egor/Game_Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Egor/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Egor/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Egor/Race.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Egor/Randomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Egor/Treasure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Game/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Game/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/combat_fight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/combat_fight.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,29 +40,36 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="Card_Constructor" value="3" />
+          <entry key="JAVA/" value="1" />
+          <entry key="JAVA/Egor" value="1" />
+          <entry key="JAVA/Game" value="1" />
+          <entry key="java" value="21" />
+          <entry key="uml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="21" />
+          <entry key="UML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="801" />
+          <entry key="java" value="1440" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="801" />
+          <entry key="JAVA" value="1440" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -64,47 +81,199 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game/Item.java">
+        <entry file="file://$PROJECT_DIR$/src/Game/combat_fight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Egor/Card_Constructor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/Egor">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Egor</OriginalElement>
+              <nodes>
+                <node x="0.0" y="227.0">Egor.Class</node>
+                <node x="120.0" y="227.0">Egor.Hero</node>
+                <node x="0.0" y="153.0">Egor.Game_Start</node>
+                <node x="186.0" y="0.0">Egor.Randomizer</node>
+                <node x="24.0" y="79.0">Egor.Treasure</node>
+                <node x="153.0" y="153.0">Egor.Monster</node>
+                <node x="0.0" y="0.0">Egor.Card_Constructor</node>
+                <node x="0.0" y="301.0">Egor.Race</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Egor.Treasure" target="Egor.Card_Constructor">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-132.5" y="220.0" />
+              <SelectedNodes>
+                <node>Egor.Class</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Game/test_location.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <entry file="uml://JAVA/Game">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Game</OriginalElement>
+              <nodes>
+                <node x="487.0" y="163.0">Game.test_location</node>
+                <node x="256.0" y="390.0">Game.Hero</node>
+                <node x="0.0" y="316.0">Game.Randomizer</node>
+                <node x="122.99999999999997" y="89.0">Game.Regular</node>
+                <node x="0.0" y="464.0">Game.test</node>
+                <node x="539.0" y="89.0">Game.one_hand</node>
+                <node x="309.0" y="316.0">Game.Location</node>
+                <node x="448.0" y="316.0">Game.roll_dice</node>
+                <node x="338.0" y="89.0">Game.Armor</node>
+                <node x="97.0" y="163.0">Game.Monster</node>
+                <node x="157.0" y="242.0">Game.Boss_Monster</node>
+                <node x="0.0" y="390.0">Game.Combat</node>
+                <node x="440.0" y="89.0">Game.Shoes</node>
+                <node x="280.25" y="0.0">Game.Treasure</node>
+                <node x="375.0" y="390.0">Game.Race</node>
+                <node x="230.99999999999997" y="89.0">Game.Helmet</node>
+                <node x="156.0" y="316.0">Game.Game_Start</node>
+                <node x="493.0" y="390.0">Game.Item</node>
+                <node x="0.0" y="89.0">Game.Two_hand</node>
+                <node x="0.0" y="242.0">Game.Normal_Monster</node>
+                <node x="323.0" y="163.0">Game.combat_fight</node>
+                <node x="136.0" y="390.0">Game.Class</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Game.Boss_Monster" target="Game.Monster">
+                  <point x="0.0" y="-14.5" />
+                  <point x="217.5" y="217.0" />
+                  <point x="166.0" y="217.0" />
+                  <point x="23.0" y="14.5" />
+                </edge>
+                <edge source="Game.Helmet" target="Game.Treasure">
+                  <point x="0.0" y="-14.5" />
+                  <point x="274.5" y="69.0" />
+                  <point x="319.0" y="69.0" />
+                  <point x="-7.75" y="14.5" />
+                </edge>
+                <edge source="Game.Armor" target="Game.Treasure">
+                  <point x="0.0" y="-14.5" />
+                  <point x="379.0" y="69.0" />
+                  <point x="334.5" y="69.0" />
+                  <point x="7.75" y="14.5" />
+                </edge>
+                <edge source="Game.Two_hand" target="Game.Treasure">
+                  <point x="0.0" y="-14.5" />
+                  <point x="51.5" y="49.0" />
+                  <point x="288.0" y="49.0" />
+                  <point x="-38.75" y="14.5" />
+                </edge>
+                <edge source="Game.Normal_Monster" target="Game.Monster">
+                  <point x="0.0" y="-14.5" />
+                  <point x="68.5" y="217.0" />
+                  <point x="120.0" y="217.0" />
+                  <point x="-23.0" y="14.5" />
+                </edge>
+                <edge source="Game.Shoes" target="Game.Treasure">
+                  <point x="0.0" y="-14.5" />
+                  <point x="479.5" y="59.0" />
+                  <point x="350.0" y="59.0" />
+                  <point x="23.25" y="14.5" />
+                </edge>
+                <edge source="Game.one_hand" target="Game.Treasure">
+                  <point x="0.0" y="-14.5" />
+                  <point x="589.0" y="49.0" />
+                  <point x="365.5" y="49.0" />
+                  <point x="38.75" y="14.5" />
+                </edge>
+                <edge source="Game.Regular" target="Game.Treasure">
+                  <point x="0.0" y="-14.5" />
+                  <point x="166.99999999999997" y="59.0" />
+                  <point x="303.5" y="59.0" />
+                  <point x="-23.25" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9978557504873294" x="404.026655111996" y="219.38464543856222" />
+              <SelectedNodes>
+                <node>Game.test_location</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game/Location.java">
+        <entry file="file://$PROJECT_DIR$/src/Egor/Game_Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-              <folding>
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#886#887#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="120" column="94" lean-forward="true" selection-start-line="120" selection-start-column="94" selection-end-line="120" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game/Hero.java">
+        <entry file="file://$PROJECT_DIR$/src/Egor/Monster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Egor/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Egor/Race.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Egor/Randomizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Egor/Hero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -127,9 +296,18 @@
         <option value="$PROJECT_DIR$/src/Game/Item.java" />
         <option value="$PROJECT_DIR$/src/Game/Hero.java" />
         <option value="$PROJECT_DIR$/src/Game/Combat.java" />
-        <option value="$PROJECT_DIR$/src/Game/test.java" />
         <option value="$PROJECT_DIR$/src/Game/Location.java" />
         <option value="$PROJECT_DIR$/src/Game/test_location.java" />
+        <option value="$PROJECT_DIR$/src/Game/roll_dice.java" />
+        <option value="$PROJECT_DIR$/src/Game/test.java" />
+        <option value="$PROJECT_DIR$/src/Game/fight.java" />
+        <option value="$PROJECT_DIR$/src/Egor/Card_Constructor.java" />
+        <option value="$PROJECT_DIR$/src/Egor/Treasure.java" />
+        <option value="$PROJECT_DIR$/src/Egor/Game_Start.java" />
+        <option value="$PROJECT_DIR$/src/Egor/Race.java" />
+        <option value="$PROJECT_DIR$/src/Egor/Class.java" />
+        <option value="$PROJECT_DIR$/src/Game/combat_fight.java" />
+        <option value="$PROJECT_DIR$/src/Egor/Monster.java" />
       </list>
     </option>
   </component>
@@ -150,9 +328,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +347,12 @@
               <item name="MuGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="Progamming_FromHui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Egor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MuGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Progamming_FromHui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Game" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -178,33 +362,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="diagram&#9;ACTION&#9;NewJavaDiagram&#10;class diagram&#9;ACTION&#9;NewJavaDiagram" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of c47e7e8... Merge branch 'master' of https://github.com/KanghuiLiang/Progamming_FromHui
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536157771599" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536157376618" />
->>>>>>> parent of 069a632... some
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace" />
-=======
-=======
->>>>>>> parent of 31e8198... dinz
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536227608361" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536227816351" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Egor" />
->>>>>>> parent of 31e8198... dinz
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Egor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pakor\OneDrive - Stamford International University\ITE222 - Programming II\munchkin-boardgame\Progamming_FromHui\src\Egor" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,7 +395,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test_location">
+  <component name="RunManager" selected="Application.Game_Start">
+    <configuration name="Game_Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Egor.Game_Start" />
+      <module name="MuGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Egor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roll_dice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Game.roll_dice" />
+      <module name="MuGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Game.test" />
       <module name="MuGame" />
@@ -248,11 +451,15 @@
     <list>
       <item itemvalue="Application.test" />
       <item itemvalue="Application.test_location" />
+      <item itemvalue="Application.roll_dice" />
+      <item itemvalue="Application.Game_Start" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test_location" />
+        <item itemvalue="Application.Game_Start" />
         <item itemvalue="Application.test" />
+        <item itemvalue="Application.roll_dice" />
+        <item itemvalue="Application.test_location" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +475,7 @@
       <updated>1536066175463</updated>
       <workItem from="1536066178050" duration="114000" />
       <workItem from="1536066543593" duration="6052000" />
+      <workItem from="1536224898121" duration="2862000" />
     </task>
     <task id="LOCAL-00001" summary="Arraylist for test">
       <created>1536067503583</created>
@@ -287,12 +495,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6166000" />
+    <option name="totallyTimeSpent" value="9028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2118003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -300,10 +509,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -312,6 +520,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -374,31 +583,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Game/Combat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
           <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game/Hero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -409,27 +597,327 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Game/Location.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
+        <state relative-caret-position="578">
           <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
-            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
             <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Game_Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-676">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Game/test_location.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="408">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/roll_dice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/fight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Treasure.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/modules.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/a.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Egor.Card_Constructor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Egor.Card_Constructor</OriginalElement>
+          <nodes>
+            <node x="" y="">Egor.Card_Constructor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="70.5" y="14.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Game_Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="120" column="94" lean-forward="true" selection-start-line="120" selection-start-column="94" selection-end-line="120" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Randomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Race.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/combat_fight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Card_Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Egor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Egor</OriginalElement>
+          <nodes>
+            <node x="0.0" y="227.0">Egor.Class</node>
+            <node x="120.0" y="227.0">Egor.Hero</node>
+            <node x="0.0" y="153.0">Egor.Game_Start</node>
+            <node x="186.0" y="0.0">Egor.Randomizer</node>
+            <node x="24.0" y="79.0">Egor.Treasure</node>
+            <node x="153.0" y="153.0">Egor.Monster</node>
+            <node x="0.0" y="0.0">Egor.Card_Constructor</node>
+            <node x="0.0" y="301.0">Egor.Race</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Egor.Treasure" target="Egor.Card_Constructor">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-132.5" y="220.0" />
+          <SelectedNodes>
+            <node>Egor.Class</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">images</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">Egor</node>
+            <node x="" y="">org</node>
+            <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">Game</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.32616632860040584" x="-253.10438728146983" y="328.5480627588317" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Egor/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Game">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Game</OriginalElement>
+          <nodes>
+            <node x="487.0" y="163.0">Game.test_location</node>
+            <node x="256.0" y="390.0">Game.Hero</node>
+            <node x="0.0" y="316.0">Game.Randomizer</node>
+            <node x="122.99999999999997" y="89.0">Game.Regular</node>
+            <node x="0.0" y="464.0">Game.test</node>
+            <node x="539.0" y="89.0">Game.one_hand</node>
+            <node x="309.0" y="316.0">Game.Location</node>
+            <node x="448.0" y="316.0">Game.roll_dice</node>
+            <node x="338.0" y="89.0">Game.Armor</node>
+            <node x="97.0" y="163.0">Game.Monster</node>
+            <node x="157.0" y="242.0">Game.Boss_Monster</node>
+            <node x="0.0" y="390.0">Game.Combat</node>
+            <node x="440.0" y="89.0">Game.Shoes</node>
+            <node x="280.25" y="0.0">Game.Treasure</node>
+            <node x="375.0" y="390.0">Game.Race</node>
+            <node x="230.99999999999997" y="89.0">Game.Helmet</node>
+            <node x="156.0" y="316.0">Game.Game_Start</node>
+            <node x="493.0" y="390.0">Game.Item</node>
+            <node x="0.0" y="89.0">Game.Two_hand</node>
+            <node x="0.0" y="242.0">Game.Normal_Monster</node>
+            <node x="323.0" y="163.0">Game.combat_fight</node>
+            <node x="136.0" y="390.0">Game.Class</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Game.Boss_Monster" target="Game.Monster">
+              <point x="0.0" y="-14.5" />
+              <point x="217.5" y="217.0" />
+              <point x="166.0" y="217.0" />
+              <point x="23.0" y="14.5" />
+            </edge>
+            <edge source="Game.Helmet" target="Game.Treasure">
+              <point x="0.0" y="-14.5" />
+              <point x="274.5" y="69.0" />
+              <point x="319.0" y="69.0" />
+              <point x="-7.75" y="14.5" />
+            </edge>
+            <edge source="Game.Armor" target="Game.Treasure">
+              <point x="0.0" y="-14.5" />
+              <point x="379.0" y="69.0" />
+              <point x="334.5" y="69.0" />
+              <point x="7.75" y="14.5" />
+            </edge>
+            <edge source="Game.Two_hand" target="Game.Treasure">
+              <point x="0.0" y="-14.5" />
+              <point x="51.5" y="49.0" />
+              <point x="288.0" y="49.0" />
+              <point x="-38.75" y="14.5" />
+            </edge>
+            <edge source="Game.Normal_Monster" target="Game.Monster">
+              <point x="0.0" y="-14.5" />
+              <point x="68.5" y="217.0" />
+              <point x="120.0" y="217.0" />
+              <point x="-23.0" y="14.5" />
+            </edge>
+            <edge source="Game.Shoes" target="Game.Treasure">
+              <point x="0.0" y="-14.5" />
+              <point x="479.5" y="59.0" />
+              <point x="350.0" y="59.0" />
+              <point x="23.25" y="14.5" />
+            </edge>
+            <edge source="Game.one_hand" target="Game.Treasure">
+              <point x="0.0" y="-14.5" />
+              <point x="589.0" y="49.0" />
+              <point x="365.5" y="49.0" />
+              <point x="38.75" y="14.5" />
+            </edge>
+            <edge source="Game.Regular" target="Game.Treasure">
+              <point x="0.0" y="-14.5" />
+              <point x="166.99999999999997" y="59.0" />
+              <point x="303.5" y="59.0" />
+              <point x="-23.25" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9978557504873294" x="404.026655111996" y="219.38464543856222" />
+          <SelectedNodes>
+            <node>Game.test_location</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
