@@ -35,6 +35,7 @@ public class test {
 		System.out.println(map.get("Monster1")+"\n");
 		
 		System.out.println("Wanna fight or run?? Type any keys TO start fighting,type N to run.");
+<<<<<<< HEAD
 		boolean flag = true;
 		String dec = input.next();
 		do {
@@ -64,6 +65,20 @@ public class test {
 
 			}
 		} while (flag);
+=======
+	    
+	    String dec = input.next();
+	    if(!dec.equalsIgnoreCase("N")) {
+	    	System.out.println("Now "+Player);
+            System.out.println("Which one item you want to use?");
+            int num = input.nextInt();
+            System.out.println("You are using "+obj.get(num));
+	    }
+	    
+	    else{
+	    System.out.println("Bye");
+	} 
+>>>>>>> parent of 069a632... some
 
 	}
 }
