@@ -43,25 +43,8 @@ public class test {
 				System.out.println("Now " + Player);
 				System.out.println("Which one item you want to use?");
 				int num = input.nextInt();
-<<<<<<< HEAD
 				System.out.println("You are using " + obj.get(num));
 			} else {
-=======
-				flag = false;
-				System.out.println("You are using " + obj.get(num));
-			} else {
-				int diceNo = new roll_dice().roll_dice();
-				System.out.println("Dice rolled the number is " + diceNo);
-				if (diceNo < 5) {
-					System.out.println("Unlucky you have to fight");
-//					todo fight method here
-
-					flag = false;
-				} else {
-					System.out.println("You can run XD");
-					flag = false;
-				}
->>>>>>> 31e8198bd27e764dbd67b30c028ce5412b5f3f5e
 
 			}
 		} while (flag);
